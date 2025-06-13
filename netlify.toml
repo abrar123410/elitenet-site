@@ -3,3 +3,9 @@
   to = "/googlee884b3d87f46a3e4.html"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/sitemap.xml"
+  to = "/sitemap.xml"
+  status = 200
+  force = true
