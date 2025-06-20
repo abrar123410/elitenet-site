@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://elitenet.infinityfreeapp.com/sitemap.xml
+Sitemap: https://elitenet.netlify.app/sitemap.xml
