@@ -4,8 +4,3 @@
   status = 200
   force = true
 
-[[redirects]]
-  from = "/sitemap.xml"
-  to = "/sitemap.xml"
-  status = 200
-  force = true
