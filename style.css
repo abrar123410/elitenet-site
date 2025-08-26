@@ -422,13 +422,14 @@ body.hardware-page nav a {
 body.hardware-page nav a:hover {
   background: #6d28d9;
 }
-/* ============ Contact Page ============ */
+/* ================= Contact Page ================= */
 body.contact-page {
   font-family: 'Inter', sans-serif;
   background: #0f172a;
   color: #e2e8f0;
 }
 
+/* Header */
 body.contact-page header {
   background: linear-gradient(135deg, #1e40af, #2563eb);
   text-align: center;
@@ -451,6 +452,7 @@ body.contact-page header p {
   color: #dbeafe;
 }
 
+/* Main Layout */
 body.contact-page main {
   max-width: var(--maxw);
   margin: 40px auto;
@@ -466,6 +468,7 @@ body.contact-page main {
   }
 }
 
+/* Sections */
 body.contact-page section {
   background: rgba(255,255,255,.03);
   border: 1px solid rgba(148,163,184,.12);
@@ -480,6 +483,7 @@ body.contact-page section h2 {
   color: #60a5fa;
 }
 
+/* Links */
 body.contact-page a {
   color: #93c5fd;
   text-decoration: none;
@@ -490,12 +494,15 @@ body.contact-page a:hover {
   text-decoration: underline;
 }
 
+/* Footer */
 body.contact-page footer {
   text-align: center;
   padding: 20px;
   font-size: 0.9rem;
   color: #94a3b8;
 }
+
+
 
 
 
