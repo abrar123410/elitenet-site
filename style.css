@@ -501,6 +501,130 @@ body.contact-page footer {
   font-size: 0.9rem;
   color: #94a3b8;
 }
+/* -------------------------------
+   LAN vs WAN Page Styles (Scoped)
+---------------------------------*/
+
+body.lan-vs-wan-page {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+body.lan-vs-wan-page header {
+    background-color: #004aad;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+body.lan-vs-wan-page header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+body.lan-vs-wan-page header p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #e0e0e0;
+}
+
+body.lan-vs-wan-page main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+body.lan-vs-wan-page section {
+    margin-bottom: 30px;
+}
+
+body.lan-vs-wan-page section h2 {
+    color: #004aad;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #004aad;
+    padding-bottom: 5px;
+}
+
+body.lan-vs-wan-page ul {
+    list-style: disc inside;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+body.lan-vs-wan-page ul li {
+    margin-bottom: 8px;
+}
+
+body.lan-vs-wan-page table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+body.lan-vs-wan-page table, 
+body.lan-vs-wan-page th, 
+body.lan-vs-wan-page td {
+    border: 1px solid #ddd;
+}
+
+body.lan-vs-wan-page th, 
+body.lan-vs-wan-page td {
+    padding: 10px;
+    text-align: left;
+}
+
+body.lan-vs-wan-page th {
+    background-color: #004aad;
+    color: #fff;
+}
+
+body.lan-vs-wan-page tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+body.lan-vs-wan-page footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #004aad;
+    color: #fff;
+}
+
+body.lan-vs-wan-page footer a {
+    color: #ffd700;
+    text-decoration: none;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+body.lan-vs-wan-page footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    body.lan-vs-wan-page header h1 {
+        font-size: 1.5rem;
+    }
+
+    body.lan-vs-wan-page main {
+        margin: 15px;
+        padding: 15px;
+    }
+
+    body.lan-vs-wan-page table th, 
+    body.lan-vs-wan-page table td {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+}
+
 
 
 
