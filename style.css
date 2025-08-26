@@ -346,6 +346,83 @@ body.cybersecurity-page nav a {
 body.cybersecurity-page nav a:hover {
   background: #0284c7;
 }
+/* ============ Computer Hardware Page Overrides ============ */
+body.hardware-page {
+  font-family: 'Inter', sans-serif;
+  background: #101418; /* slightly dark bg for hardware theme */
+  color: var(--text);
+}
+
+body.hardware-page header {
+  background: linear-gradient(135deg, #8b5cf6, #312e81); /* purple to deep blue */
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: var(--radius-lg);
+  margin: 20px auto;
+  max-width: var(--maxw);
+  box-shadow: var(--shadow);
+}
+
+body.hardware-page header h1 {
+  font-size: clamp(32px, 4vw, 44px);
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+body.hardware-page header p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ddd6fe; /* light purple */
+}
+
+body.hardware-page main {
+  max-width: var(--maxw);
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+body.hardware-page section {
+  background: rgba(255,255,255,.02);
+  border: 1px solid rgba(148,163,184,.12);
+  border-radius: var(--radius);
+  padding: 24px;
+  margin-bottom: 28px;
+  box-shadow: 0 4px 16px rgba(0,0,0,.2);
+}
+
+body.hardware-page section h2 {
+  font-size: 22px;
+  color: #a78bfa; /* purple accent heading */
+  margin-bottom: 10px;
+}
+
+body.hardware-page section p {
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+body.hardware-page nav {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 30px;
+}
+
+body.hardware-page nav a {
+  padding: 10px 16px;
+  background: #8b5cf6;
+  color: white;
+  border-radius: 10px;
+  font-weight: 500;
+  transition: background .2s ease;
+}
+
+body.hardware-page nav a:hover {
+  background: #6d28d9;
+}
+
 
 
 
