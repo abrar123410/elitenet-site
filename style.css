@@ -270,4 +270,64 @@ body.networking-page nav a {
 body.networking-page nav a:hover {
   background: var(--primary-600);
 }
+/* Cybersecurity Page */
+body.cybersecurity-page {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+.cybersecurity-page header {
+  background-color: #1e88e5;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  border-radius: 0 0 12px 12px;
+}
+
+.cybersecurity-page header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.cybersecurity-page main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.cybersecurity-page h2 {
+  color: #1e88e5;
+  margin-top: 30px;
+}
+
+.cybersecurity-page nav {
+  background: #e3f2fd;
+  padding: 15px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  margin-top: 40px;
+  border-radius: 12px;
+}
+
+.cybersecurity-page nav a {
+  margin: 0 10px;
+  font-weight: 500;
+  color: #1e88e5;
+}
+
+.cybersecurity-page footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+
 
