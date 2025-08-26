@@ -273,12 +273,12 @@ body.networking-page nav a:hover {
 /* ============ Cybersecurity Page Overrides ============ */
 body.cybersecurity-page {
   font-family: 'Inter', sans-serif;
-  background: #0f172a; /* darker bluish bg for cyber theme */
+  background: #0a0f1a; /* same base bg as networking for consistency */
   color: var(--text);
 }
 
 body.cybersecurity-page header {
-  background: linear-gradient(135deg, #1e293b, #0ea5e9); /* dark blue -> cyan */
+  background: linear-gradient(135deg, #0ea5e9, #1e293b); /* cyan to dark */
   color: #fff;
   text-align: center;
   padding: 60px 20px;
@@ -297,7 +297,7 @@ body.cybersecurity-page header h1 {
 body.cybersecurity-page header p {
   font-size: 18px;
   font-weight: 400;
-  color: #bae6fd; /* lighter cyan for contrast */
+  color: #e0f2fe;
 }
 
 body.cybersecurity-page main {
@@ -307,17 +307,17 @@ body.cybersecurity-page main {
 }
 
 body.cybersecurity-page section {
-  background: rgba(255,255,255,.03);
-  border: 1px solid rgba(148,163,184,.15);
+  background: rgba(255,255,255,.02);
+  border: 1px solid rgba(148,163,184,.12);
   border-radius: var(--radius);
   padding: 24px;
   margin-bottom: 28px;
-  box-shadow: 0 4px 16px rgba(0,0,0,.25);
+  box-shadow: 0 4px 16px rgba(0,0,0,.2);
 }
 
 body.cybersecurity-page section h2 {
   font-size: 22px;
-  color: #38bdf8; /* cyan accent */
+  color: #38bdf8; /* cyan heading */
   margin-bottom: 10px;
 }
 
@@ -346,6 +346,8 @@ body.cybersecurity-page nav a {
 body.cybersecurity-page nav a:hover {
   background: #0284c7;
 }
+
+
 
 
 
