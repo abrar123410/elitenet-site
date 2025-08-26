@@ -624,6 +624,130 @@ body.lan-vs-wan-page footer a:hover {
         padding: 8px;
     }
 }
+/* -------------------------------
+   Routers vs Switches Page Styles (Scoped)
+---------------------------------*/
+
+body.routers-vs-switches-page {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+body.routers-vs-switches-page header {
+    background-color: #004aad;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+body.routers-vs-switches-page header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+body.routers-vs-switches-page header p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #e0e0e0;
+}
+
+body.routers-vs-switches-page main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+body.routers-vs-switches-page section {
+    margin-bottom: 30px;
+}
+
+body.routers-vs-switches-page section h2 {
+    color: #004aad;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #004aad;
+    padding-bottom: 5px;
+}
+
+body.routers-vs-switches-page ul {
+    list-style: disc inside;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+body.routers-vs-switches-page ul li {
+    margin-bottom: 8px;
+}
+
+body.routers-vs-switches-page table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+body.routers-vs-switches-page table, 
+body.routers-vs-switches-page th, 
+body.routers-vs-switches-page td {
+    border: 1px solid #ddd;
+}
+
+body.routers-vs-switches-page th, 
+body.routers-vs-switches-page td {
+    padding: 10px;
+    text-align: left;
+}
+
+body.routers-vs-switches-page th {
+    background-color: #004aad;
+    color: #fff;
+}
+
+body.routers-vs-switches-page tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+body.routers-vs-switches-page footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #004aad;
+    color: #fff;
+}
+
+body.routers-vs-switches-page footer a {
+    color: #ffd700;
+    text-decoration: none;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+body.routers-vs-switches-page footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    body.routers-vs-switches-page header h1 {
+        font-size: 1.5rem;
+    }
+
+    body.routers-vs-switches-page main {
+        margin: 15px;
+        padding: 15px;
+    }
+
+    body.routers-vs-switches-page table th, 
+    body.routers-vs-switches-page table td {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+}
+
 
 
 
