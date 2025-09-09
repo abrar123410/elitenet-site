@@ -993,6 +993,50 @@ body.wired-vs-wireless-page footer a:hover {
         padding: 8px;
     }
 }
+/* ==== BLOG PAGE STYLING ==== */
+.blog-page .blog-card {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.blog-page .blog-card img {
+  width: 250px;
+  object-fit: cover;
+}
+
+.blog-page .blog-content {
+  padding: 15px;
+}
+
+.blog-page .blog-content h2 a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+.blog-page .blog-content p {
+  margin: 10px 0;
+  color: #333;
+}
+
+.blog-page .btn-read {
+  display: inline-block;
+  margin-top: 5px;
+  padding: 8px 12px;
+  background: #0073e6;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.blog-page .btn-read:hover {
+  background: #005bb5;
+}
+
 
 
 
